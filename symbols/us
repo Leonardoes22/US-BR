@@ -2178,11 +2178,17 @@ xkb_symbols "us_br"  {
     // key <AD12> { [ bracketright, braceright, ,	]	};
     // key <BKSL> {	[ backslash,         bar, ,	]	};
 
-    // Make Caps behave as AltGr and Right Alt + Caps as Caps
+    // Make Caps behave as AltGr
     key <CAPS> {
-      type[Group1] = "THREE_LEVEL",
-      symbols[Group1] = [ ISO_Level3_Shift, ISO_Level3_Shift, Caps_Lock ]
+      type[Group1] = "ONE_LEVEL",
+      symbols[Group1] = [ ISO_Level3_Shift ]
     };
+    
+    // Make AltGr behave as Caps
+    key <RALT> {
+      type[Group1]="ONE_LEVEL",
+      symbols[Group1] = [ Caps_Lock ]
+    };
+    
     include "level3(modifier_mapping)"
-    include "level3(ralt_switch)" // This makes the right Alt key function as AltGr
 };
