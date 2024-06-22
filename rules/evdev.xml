@@ -1334,6 +1334,25 @@
   <layoutList>
     <layout>
       <configItem>
+        <name>us_br</name>
+        <shortDescription>pt</shortDescription>
+        <description>Portuguese (US with Brazilian keys)</description>
+        <languageList>
+          <iso639Id>por</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>caps_as_altgr</name>
+            <shortDescription>pt</shortDescription>
+            <description>Portuguese (US with Brazilian keys, Caps/AltGr switch)</description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>us</name>
         <!-- Keyboard indicator for English layouts -->
         <shortDescription>en</shortDescription>
@@ -1446,16 +1465,6 @@
           <configItem>
             <name>symbolic</name>
             <description>English (US, Symbolic)</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>us_br</name>
-            <shortDescription>pt</shortDescription>
-            <description>Portuguese (US with Brazilian keys)</description>
-            <languageList>
-              <iso639Id>por</iso639Id>
-            </languageList>
           </configItem>
         </variant>
         <variant>

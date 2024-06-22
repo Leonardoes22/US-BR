@@ -191,6 +191,7 @@
   chromebook      Chromebook
 
 ! layout
+  us_br           Portuguese (US with Brazilian keys)
   us              English (US)
   af              Afghani
   ara             Arabic
@@ -293,6 +294,7 @@
   custom          A user-defined custom Layout
 
 ! variant
+  caps_as_altgr   us_br: Portuguese (US with Brazilian keys, Caps/AltGr switch)
   chr             us: Cherokee
   haw             us: Hawaiian
   euro            us: English (US, euro on 5)
@@ -317,7 +319,6 @@
   norman          us: English (Norman)
   workman         us: English (Workman)
   workman-intl    us: English (Workman, intl., with dead keys)
-  us_br           us: Portuguese (Brazil, ANSI-BR)
   ps              af: Pashto
   uz              af: Uzbek (Afghanistan)
   olpc-ps         af: Pashto (Afghanistan, OLPC)

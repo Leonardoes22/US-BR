@@ -6,5 +6,5 @@ RULES_DIR = $(XKB_DIR)/rules
 
 install:
 	@echo "Installing custom XKB files..."
-	cp symbols/us $(SYMBOLS_DIR)
+	cp symbols/us_br $(SYMBOLS_DIR)
 	cp -v rules/evdev.* $(RULES_DIR)

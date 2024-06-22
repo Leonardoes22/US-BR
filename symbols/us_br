@@ -1,0 +1,36 @@
+partial alphanumeric_keys
+xkb_symbols "basic"  {
+
+    // Include the standard US layout
+    include "us(basic)"
+
+    name[Group1]= "Portuguese (US with Brazilian keys)";
+
+    // Custom mappings
+    key <AC10> { [ semicolon, colon, ccedilla, Ccedilla ] }; // ; : ç Ç 
+    key <AC11> { [ apostrophe, quotedbl, dead_tilde, dead_circumflex ] }; // ' " ~ ^
+    key <AD11> { [ bracketleft,	braceleft, dead_acute, dead_grave ] }; // [ { ` ´ 
+};
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "caps_as_altgr"  {
+
+    // Include the base version
+    include "us_br(basic)"
+
+    name[Group1]= "Portuguese (US with Brazilian keys, Caps/AltGr switch)";
+
+    // Make Caps behave as AltGr
+    key <CAPS> {
+      type[Group1] = "ONE_LEVEL",
+      symbols[Group1] = [ ISO_Level3_Shift ]
+    };
+    
+    // Make AltGr behave as Caps
+    key <RALT> {
+      type[Group1]="ONE_LEVEL",
+      symbols[Group1] = [ Caps_Lock ]
+    };
+    
+    include "level3(modifier_mapping)"
+};

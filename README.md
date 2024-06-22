@@ -11,7 +11,8 @@ sudo make install
 
 **To Do**
 - [ ] Script de instalação
+  - [ ] Inserir nós adicionais em `evdev.*` ao invès de substituir arquivo
   - [ ] Fazer backup dos arquivos originais
   - [ ] Desinstalação
 - [ ] Estudar a adição de novos símbolos
-- [ ] Fazer Caps como AltGr opcional
+- [x] Fazer Caps como AltGr opcional
