@@ -16,3 +16,4 @@ sudo make install
   - [ ] Desinstalação
 - [ ] Estudar a adição de novos símbolos
 - [x] Fazer Caps como AltGr opcional
+- [ ] Fix flatpak error
