@@ -4,7 +4,7 @@ Layout de teclado US (ANSI) extendido com símbolos do teclado ABNT2.
 
 **Instalação**
 ```bash
-git clone git@github.com:Leonardoes22/US-BR.git
+git clone https://github.com/Leonardoes22/US-BR.git
 cd US-BR
 sudo make install
 ```

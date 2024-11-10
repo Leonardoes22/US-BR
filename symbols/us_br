@@ -32,5 +32,4 @@ xkb_symbols "caps_as_altgr"  {
       symbols[Group1] = [ Caps_Lock ]
     };
     
-    include "level3(modifier_mapping)"
 };
