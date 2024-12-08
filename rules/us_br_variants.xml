@@ -1,0 +1,14 @@
+<!-- US-BR BEGIN -->
+        <variant>
+          <configItem>
+            <name>us_br</name>
+            <description>Portuguese (US with ABNT keys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>us_br_caps_switch</name>
+            <description>Portuguese (US with ABNT keys, Caps/AltGr switch)</description>
+          </configItem>
+        </variant>
+<!-- US-BR END -->
