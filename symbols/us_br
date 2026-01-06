@@ -7,9 +7,10 @@ xkb_symbols "us_br"  {
     name[Group1]= "Portuguese (US with ABNT keys)";
 
     // Custom mappings
-    key <AC10> { [ semicolon, colon, ccedilla, Ccedilla ] }; // ; : ç Ç 
+    key <AC10> { [ semicolon, colon, ccedilla, Ccedilla ] }; // ; : ç Ç
     key <AC11> { [ apostrophe, quotedbl, dead_tilde, dead_circumflex ] }; // ' " ~ ^
-    key <AD11> { [ bracketleft,	braceleft, dead_acute, dead_grave ] }; // [ { ` ´ 
+    key <AD11> { [ bracketleft, braceleft, dead_acute, dead_grave ] }; // [ { ` ´
+    key <AE06> { [ 6, asciicircum, dead_diaeresis, none ] }; // 6 ^ ¨
 };
 
 partial alphanumeric_keys modifier_keys
