@@ -11,4 +11,10 @@
             <description>Portuguese (US with ABNT keys, Caps/AltGr switch)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>us_br_hjkl_arrows</name>
+            <description>Portuguese (US with ABNT keys, hjkl arrows)</description>
+          </configItem>
+        </variant>
 <!-- US-BR END -->

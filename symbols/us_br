@@ -34,3 +34,20 @@ xkb_symbols "us_br_caps_switch"  {
     };
     
 };
+
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "us_br_hjkl_arrows"  {
+
+    // Include the base version
+    include "br(us_br_caps_switch)"
+
+    name[Group1]= "Portuguese (US with ABNT keys, hjkl arrows)";
+
+    // AltGr + H/J/K/L => Left/Down/Up/Right
+    key <AC06> { [ h, H, Left,  Left  ] };
+    key <AC07> { [ j, J, Down,  Down  ] };
+    key <AC08> { [ k, K, Up,    Up    ] };
+    key <AC09> { [ l, L, Right, Right ] };
+    
+};
